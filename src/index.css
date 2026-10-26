@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  }
+}
+
+.font-cute {
+  font-family: 'Gaegu', 'Dongle', cursive, sans-serif;
+}
+
+/* Custom subtle pastel scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(254, 243, 199, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(253, 164, 175, 0.6);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 113, 133, 0.8);
+}

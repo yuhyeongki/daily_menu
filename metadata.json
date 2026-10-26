@@ -1,0 +1,6 @@
+{
+  "name": "나도급식 - 우리 학교 실시간 급식 식단표",
+  "description": "전국 초·중·고등학교의 실시간 급식 메뉴와 칼로리, 영양소, 알레르기 유발 식품 정보를 귀엽고 산뜻한 파스텔 톤으로 확인하는 나도급식 서비스입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
